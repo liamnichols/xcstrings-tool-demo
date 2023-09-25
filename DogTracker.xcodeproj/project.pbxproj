@@ -27,6 +27,7 @@
 		5389B6242AC0B8C300311E68 /* AddDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogView.swift; sourceTree = "<group>"; };
 		5389B62F2AC0D82700311E68 /* Localizable.xcstrings */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; tabWidth = 2; };
 		5389B63D2AC2128A00311E68 /* DogKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DogKit; sourceTree = "<group>"; };
+		5389B6422AC21D2400311E68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		5389B6002AC0B14500311E68 = {
 			isa = PBXGroup;
 			children = (
+				5389B6422AC21D2400311E68 /* README.md */,
 				5389B63D2AC2128A00311E68 /* DogKit */,
 				5389B60B2AC0B14500311E68 /* DogTracker */,
 				5389B60A2AC0B14500311E68 /* Products */,
