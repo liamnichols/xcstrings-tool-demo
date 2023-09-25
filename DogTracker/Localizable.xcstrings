@@ -1,0 +1,172 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "addFieldBreed" : {
+      "comment" : "The name of the text field for populating the dogs breed",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Breed"
+          }
+        }
+      }
+    },
+    "addFieldName" : {
+      "comment" : "The name of the text field for populating the dogs name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "addFieldRating" : {
+      "comment" : "The name of the text field for populating the dogs rating",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rating"
+          }
+        }
+      }
+    },
+    "addTitle" : {
+      "comment" : "Title of the screen for adding a new dog",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Dog"
+          }
+        }
+      }
+    },
+    "appName" : {
+      "comment" : "Title of the application",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dog Tracker"
+          }
+        }
+      }
+    },
+    "buttonLabelAddDog" : {
+      "comment" : "Title of the button that presents the Add Dog view or adds the dog to the list of sightings",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Dog"
+          }
+        }
+      }
+    },
+    "buttonLabelClose" : {
+      "comment" : "Tile of button that dismisses a view",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "emptyStateHeading" : {
+      "comment" : "The empty state heading",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Sightings Yet"
+          }
+        }
+      }
+    },
+    "emptyStateSubheading" : {
+      "comment" : "The empty state subheading",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "device" : {
+              "mac" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Click the ‘Add Dog‘ button to get started"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tap the ‘+‘ button to get started"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "listSummary" : {
+      "comment" : "Summary of sightings shown at the bottom of the list",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You've seen %#@dogCount@ with a combined rating of %2$lld/%3$lld"
+          },
+          "substitutions" : {
+            "dogCount" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg dog"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg dogs"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ratingOutOf10" : {
+      "comment" : "Displays a dogs rating out of 10",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld/10"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

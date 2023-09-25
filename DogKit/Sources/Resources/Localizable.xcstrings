@@ -1,0 +1,73 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "dachshund" : {
+      "comment" : "The Dachshund breed of dog",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dachshund"
+          }
+        }
+      }
+    },
+    "germanShepherd" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "German Shepard"
+          }
+        }
+      }
+    },
+    "goldenRetriever" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golden Retriever"
+          }
+        }
+      }
+    },
+    "pomeranian" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomeranian"
+          }
+        }
+      }
+    },
+    "poodle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poodle"
+          }
+        }
+      }
+    },
+    "shihTzu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shih Tzu"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

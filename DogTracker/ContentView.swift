@@ -20,7 +20,11 @@ struct ContentView: View {
                         }
                     } footer: {
                         Text(
-                            "You've seen \(dogs.count) dogs with a combined rating of \(totalRating)/\(dogs.count * 10)", comment: "Summary of sightings shown at the bottom of the list"
+                            .localizable.listSummary(
+                                dogCount: dogs.count,
+                                totalRating,
+                                dogs.count * 10
+                            )
                         )
                     }
                 }
@@ -28,20 +32,20 @@ struct ContentView: View {
             .overlay {
                 if dogs.isEmpty {
                     VStack(spacing: 8) {
-                        Text("No Sightings Yet", comment: "The empty state heading")
+                        Text(.localizable.emptyStateHeading)
                             .font(.headline)
 
-                        Text("Tap the ‘+‘ button to get started", comment: "The empty state subheading")
+                        Text(.localizable.emptyStateSubheading)
                             .font(.subheadline)
                     }
                     .foregroundStyle(.secondary)
                 }
             }
-            .navigationTitle(Text("Dog Tracker", comment: "Title of the application"))
+            .navigationTitle(Text(.localizable.appName))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button(
-                        "\(LocalizedStringResource("Add Dog", comment: "Title of the button that presents the Add Dog view"))",
+                        "\(.localizable.buttonLabelAddDog)",
                         systemImage: "plus",
                         action: addDog
                     )

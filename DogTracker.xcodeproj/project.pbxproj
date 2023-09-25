@@ -14,6 +14,7 @@
 		5389B6212AC0B54D00311E68 /* DogKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5389B6202AC0B54D00311E68 /* DogKit */; };
 		5389B6232AC0B59C00311E68 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6222AC0B59C00311E68 /* DogView.swift */; };
 		5389B6252AC0B8C300311E68 /* AddDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6242AC0B8C300311E68 /* AddDogView.swift */; };
+		5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5389B62F2AC0D82700311E68 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5389B6132AC0B14600311E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5389B6222AC0B59C00311E68 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
 		5389B6242AC0B8C300311E68 /* AddDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogView.swift; sourceTree = "<group>"; };
+		5389B62F2AC0D82700311E68 /* Localizable.xcstrings */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; tabWidth = 2; };
 		5389B63D2AC2128A00311E68 /* DogKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DogKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 				5389B60E2AC0B14500311E68 /* ContentView.swift */,
 				5389B6242AC0B8C300311E68 /* AddDogView.swift */,
 				5389B6222AC0B59C00311E68 /* DogView.swift */,
+				5389B62F2AC0D82700311E68 /* Localizable.xcstrings */,
 				5389B6102AC0B14600311E68 /* Assets.xcassets */,
 				5389B6122AC0B14600311E68 /* Preview Content */,
 			);
@@ -99,6 +102,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5389B62E2AC0D72400311E68 /* PBXTargetDependency */,
 			);
 			name = DogTracker;
 			packageProductDependencies = (
@@ -132,6 +136,9 @@
 				Base,
 			);
 			mainGroup = 5389B6002AC0B14500311E68;
+			packageReferences = (
+				5389B62A2AC0D45800311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool" */,
+			);
 			productRefGroup = 5389B60A2AC0B14500311E68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,6 +155,7 @@
 			files = (
 				5389B6142AC0B14600311E68 /* Preview Assets.xcassets in Resources */,
 				5389B6112AC0B14600311E68 /* Assets.xcassets in Resources */,
+				5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +174,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5389B62E2AC0D72400311E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 5389B62D2AC0D72400311E68 /* XCStringsToolPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5389B6152AC0B14600311E68 /* Debug */ = {
@@ -306,10 +321,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eu.liamnichols.DogTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,10 +350,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eu.liamnichols.DogTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,10 +383,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		5389B62A2AC0D45800311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liamnichols/xcstrings-tool.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		5389B6202AC0B54D00311E68 /* DogKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DogKit;
+		};
+		5389B62D2AC0D72400311E68 /* XCStringsToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5389B62A2AC0D45800311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool" */;
+			productName = "plugin:XCStringsToolPlugin";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
