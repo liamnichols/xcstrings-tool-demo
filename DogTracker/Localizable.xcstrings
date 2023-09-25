@@ -10,6 +10,12 @@
             "state" : "translated",
             "value" : "Breed"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Race"
+          }
         }
       }
     },
@@ -21,6 +27,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nom"
           }
         }
       }
@@ -34,6 +46,12 @@
             "state" : "translated",
             "value" : "Rating"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Évaluation"
+          }
         }
       }
     },
@@ -45,6 +63,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "New Dog"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveau chien"
           }
         }
       }
@@ -58,6 +82,12 @@
             "state" : "translated",
             "value" : "Dog Tracker"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traqueur de chiens"
+          }
         }
       }
     },
@@ -69,6 +99,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Dog"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un chien"
           }
         }
       }
@@ -82,6 +118,12 @@
             "state" : "translated",
             "value" : "Close"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
         }
       }
     },
@@ -93,6 +135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Sightings Yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas d'observation"
           }
         }
       }
@@ -114,6 +162,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Tap the ‘+‘ button to get started"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "device" : {
+              "mac" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cliquez sur le bouton « Ajouter un chien » pour commencer"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Appuyez sur le bouton « + » pour commencer"
                 }
               }
             }
@@ -152,6 +218,34 @@
               }
             }
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous avez vu %#@dogCount@ avec une évaluation combinée de %2$lld / %3$lld"
+          },
+          "substitutions" : {
+            "dogCount" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg chien"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg chiens"
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -163,6 +257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld/10"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / 10"
           }
         }
       }

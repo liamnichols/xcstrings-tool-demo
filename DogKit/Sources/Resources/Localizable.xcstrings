@@ -10,6 +10,12 @@
             "state" : "translated",
             "value" : "Dachshund"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teckel"
+          }
         }
       }
     },
@@ -20,6 +26,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "German Shepard"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "berger allemand"
           }
         }
       }
@@ -32,6 +44,12 @@
             "state" : "translated",
             "value" : "Golden Retriever"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "golden retriever"
+          }
         }
       }
     },
@@ -43,6 +61,12 @@
             "state" : "translated",
             "value" : "Pomeranian"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pomeranian"
+          }
         }
       }
     },
@@ -53,6 +77,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poodle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caniche"
           }
         }
       }
