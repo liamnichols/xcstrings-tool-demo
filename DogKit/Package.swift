@@ -14,13 +14,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/liamnichols/xcstrings-tool.git", from: "0.0.1")
+        .package(url: "https://github.com/liamnichols/xcstrings-tool-plugin", from: "0.0.2")
     ],
     targets: [
         .target(
             name: "DogKit",
             dependencies: [
-                .product(name: "XCStringsToolPlugin", package: "xcstrings-tool")
+                .product(name: "XCStringsToolPlugin", package: "xcstrings-tool-plugin")
             ],
             path: "Sources"
         )

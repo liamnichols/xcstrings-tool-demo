@@ -104,7 +104,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5389B62E2AC0D72400311E68 /* PBXTargetDependency */,
+				5389BEC72AC6304A00311E68 /* PBXTargetDependency */,
 			);
 			name = DogTracker;
 			packageProductDependencies = (
@@ -140,7 +140,7 @@
 			);
 			mainGroup = 5389B6002AC0B14500311E68;
 			packageReferences = (
-				5389B62A2AC0D45800311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool" */,
+				5389BEC52AC6304300311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool-plugin" */,
 			);
 			productRefGroup = 5389B60A2AC0B14500311E68 /* Products */;
 			projectDirPath = "";
@@ -179,9 +179,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5389B62E2AC0D72400311E68 /* PBXTargetDependency */ = {
+		5389BEC72AC6304A00311E68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 5389B62D2AC0D72400311E68 /* XCStringsToolPlugin */;
+			productRef = 5389BEC62AC6304A00311E68 /* XCStringsToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,12 +387,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5389B62A2AC0D45800311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool" */ = {
+		5389BEC52AC6304300311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool-plugin" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/liamnichols/xcstrings-tool.git";
+			repositoryURL = "https://github.com/liamnichols/xcstrings-tool-plugin";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
+				minimumVersion = 0.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -402,9 +402,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = DogKit;
 		};
-		5389B62D2AC0D72400311E68 /* XCStringsToolPlugin */ = {
+		5389BEC62AC6304A00311E68 /* XCStringsToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5389B62A2AC0D45800311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool" */;
+			package = 5389BEC52AC6304300311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool-plugin" */;
 			productName = "plugin:XCStringsToolPlugin";
 		};
 /* End XCSwiftPackageProductDependency section */

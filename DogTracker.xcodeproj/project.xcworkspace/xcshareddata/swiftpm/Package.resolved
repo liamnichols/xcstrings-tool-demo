@@ -1,30 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "swift-argument-parser",
+      "identity" : "xcstrings-tool-plugin",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "location" : "https://github.com/liamnichols/xcstrings-tool-plugin",
       "state" : {
-        "revision" : "8f4d2753f0e4778c76d5f05ad16c74f707390531",
-        "version" : "1.2.3"
-      }
-    },
-    {
-      "identity" : "swift-syntax",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax.git",
-      "state" : {
-        "revision" : "74203046135342e4a4a627476dd6caf8b28fe11b",
-        "version" : "509.0.0"
-      }
-    },
-    {
-      "identity" : "xcstrings-tool",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/liamnichols/xcstrings-tool.git",
-      "state" : {
-        "revision" : "663294009fbc88e19f714b3a64f68b7f8e98b652",
-        "version" : "0.0.1"
+        "revision" : "c446c3e56e5ccf17c449a7dd768bb82da320b6c0",
+        "version" : "0.0.2"
       }
     }
   ],
