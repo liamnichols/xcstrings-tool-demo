@@ -1,5 +1,6 @@
 import Foundation
 
+@available(iOS 16, *)
 public struct Breed {
     public let name: String
 

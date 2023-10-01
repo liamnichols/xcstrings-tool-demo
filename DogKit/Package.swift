@@ -6,7 +6,6 @@ import PackageDescription
 let package = Package(
     name: "DogKit",
     defaultLocalization: "en",
-    platforms: [.iOS(.v17)],
     products: [
         .library(
             name: "DogKit",
@@ -14,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/liamnichols/xcstrings-tool-plugin", from: "0.0.2")
+        .package(url: "https://github.com/liamnichols/xcstrings-tool-plugin", from: "0.1.0")
     ],
     targets: [
         .target(

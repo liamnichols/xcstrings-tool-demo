@@ -1,5 +1,6 @@
 import SwiftData
 
+@available(iOS 17, *)
 @Model
 public final class Dog {
     public var name: String
