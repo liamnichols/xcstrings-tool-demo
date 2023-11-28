@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/liamnichols/xcstrings-tool-plugin", from: "0.1.0")
+        .package(url: "https://github.com/liamnichols/xcstrings-tool-plugin", from: "0.1.1")
     ],
     targets: [
         .target(
