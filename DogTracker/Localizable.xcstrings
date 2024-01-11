@@ -8,12 +8,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Breed"
+            "value" : "Breed (i.e %@)"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Race"
           }
         }

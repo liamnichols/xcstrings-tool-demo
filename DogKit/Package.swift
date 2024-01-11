@@ -21,7 +21,10 @@ let package = Package(
             dependencies: [
                 .product(name: "XCStringsToolPlugin", package: "xcstrings-tool-plugin")
             ],
-            path: "Sources"
+            path: "Sources",
+            swiftSettings: [
+                .define("XCSTRINGS_TOOL_ACCESS_LEVEL_PUBLIC")
+            ]
         )
     ]
 )
