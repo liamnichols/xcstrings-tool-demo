@@ -15,7 +15,37 @@
 		5389B6232AC0B59C00311E68 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6222AC0B59C00311E68 /* DogView.swift */; };
 		5389B6252AC0B8C300311E68 /* AddDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6242AC0B8C300311E68 /* AddDogView.swift */; };
 		5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5389B62F2AC0D82700311E68 /* Localizable.xcstrings */; };
+		53BFEBEA2BD8CF6E00D71A61 /* PuppyTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFEBE92BD8CF6E00D71A61 /* PuppyTracker.swift */; };
+		53BFEBEC2BD8CF6E00D71A61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BFEBEB2BD8CF6E00D71A61 /* ContentView.swift */; };
+		53BFEBEE2BD8CF6F00D71A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BFEBED2BD8CF6F00D71A61 /* Assets.xcassets */; };
+		53BFEBF12BD8CF7000D71A61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BFEBF02BD8CF7000D71A61 /* Preview Assets.xcassets */; };
+		53BFEBF42BD8CF7000D71A61 /* PuppyTracker.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53BFEBE72BD8CF6E00D71A61 /* PuppyTracker.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53BFEBFF2BD8D46400D71A61 /* DogKit in Frameworks */ = {isa = PBXBuildFile; productRef = 53BFEBFE2BD8D46400D71A61 /* DogKit */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53BFEBF22BD8CF7000D71A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5389B6012AC0B14500311E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53BFEBE62BD8CF6E00D71A61;
+			remoteInfo = "PuppyTracker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53BFEBF52BD8CF7000D71A61 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				53BFEBF42BD8CF7000D71A61 /* PuppyTracker.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5389B6092AC0B14500311E68 /* DogTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +58,11 @@
 		5389B62F2AC0D82700311E68 /* Localizable.xcstrings */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; tabWidth = 2; };
 		5389B63D2AC2128A00311E68 /* DogKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DogKit; sourceTree = "<group>"; };
 		5389B6422AC21D2400311E68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53BFEBE72BD8CF6E00D71A61 /* PuppyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuppyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BFEBE92BD8CF6E00D71A61 /* PuppyTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyTracker.swift; sourceTree = "<group>"; };
+		53BFEBEB2BD8CF6E00D71A61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53BFEBED2BD8CF6F00D71A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53BFEBF02BD8CF7000D71A61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +71,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5389B6212AC0B54D00311E68 /* DogKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53BFEBE42BD8CF6E00D71A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BFEBFF2BD8D46400D71A61 /* DogKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +91,7 @@
 				5389B6422AC21D2400311E68 /* README.md */,
 				5389B63D2AC2128A00311E68 /* DogKit */,
 				5389B60B2AC0B14500311E68 /* DogTracker */,
+				53BFEBE82BD8CF6E00D71A61 /* PuppyTracker */,
 				5389B60A2AC0B14500311E68 /* Products */,
 				5389B61F2AC0B54D00311E68 /* Frameworks */,
 			);
@@ -57,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				5389B6092AC0B14500311E68 /* DogTracker.app */,
+				53BFEBE72BD8CF6E00D71A61 /* PuppyTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +135,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		53BFEBE82BD8CF6E00D71A61 /* PuppyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				53BFEBE92BD8CF6E00D71A61 /* PuppyTracker.swift */,
+				53BFEBEB2BD8CF6E00D71A61 /* ContentView.swift */,
+				53BFEBED2BD8CF6F00D71A61 /* Assets.xcassets */,
+				53BFEBEF2BD8CF7000D71A61 /* Preview Content */,
+			);
+			path = PuppyTracker;
+			sourceTree = "<group>";
+		};
+		53BFEBEF2BD8CF7000D71A61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53BFEBF02BD8CF7000D71A61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,11 +164,13 @@
 				5389B6052AC0B14500311E68 /* Sources */,
 				5389B6062AC0B14500311E68 /* Frameworks */,
 				5389B6072AC0B14500311E68 /* Resources */,
+				53BFEBF52BD8CF7000D71A61 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5389BEC72AC6304A00311E68 /* PBXTargetDependency */,
+				53BFEBF32BD8CF7000D71A61 /* PBXTargetDependency */,
 			);
 			name = DogTracker;
 			packageProductDependencies = (
@@ -114,6 +180,27 @@
 			productReference = 5389B6092AC0B14500311E68 /* DogTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		53BFEBE62BD8CF6E00D71A61 /* PuppyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53BFEBF82BD8CF7000D71A61 /* Build configuration list for PBXNativeTarget "PuppyTracker" */;
+			buildPhases = (
+				53BFEBE32BD8CF6E00D71A61 /* Sources */,
+				53BFEBE42BD8CF6E00D71A61 /* Frameworks */,
+				53BFEBE52BD8CF6E00D71A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53BFEBFB2BD8D08800D71A61 /* PBXTargetDependency */,
+			);
+			name = PuppyTracker;
+			packageProductDependencies = (
+				53BFEBFE2BD8D46400D71A61 /* DogKit */,
+			);
+			productName = "PuppyTracker Watch App";
+			productReference = 53BFEBE72BD8CF6E00D71A61 /* PuppyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -121,11 +208,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					5389B6082AC0B14500311E68 = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					53BFEBE62BD8CF6E00D71A61 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -147,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				5389B6082AC0B14500311E68 /* DogTracker */,
+				53BFEBE62BD8CF6E00D71A61 /* PuppyTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +250,15 @@
 				5389B6142AC0B14600311E68 /* Preview Assets.xcassets in Resources */,
 				5389B6112AC0B14600311E68 /* Assets.xcassets in Resources */,
 				5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53BFEBE52BD8CF6E00D71A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BFEBF12BD8CF7000D71A61 /* Preview Assets.xcassets in Resources */,
+				53BFEBEE2BD8CF6F00D71A61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,12 +276,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53BFEBE32BD8CF6E00D71A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BFEBEC2BD8CF6E00D71A61 /* ContentView.swift in Sources */,
+				53BFEBEA2BD8CF6E00D71A61 /* PuppyTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		5389BEC72AC6304A00311E68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = 5389BEC62AC6304A00311E68 /* XCStringsToolPlugin */;
+		};
+		53BFEBF32BD8CF7000D71A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53BFEBE62BD8CF6E00D71A61 /* PuppyTracker */;
+			targetProxy = 53BFEBF22BD8CF7000D71A61 /* PBXContainerItemProxy */;
+		};
+		53BFEBFB2BD8D08800D71A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 53BFEBFA2BD8D08800D71A61 /* DogKit */;
 		};
 /* End PBXTargetDependency section */
 
@@ -308,6 +426,7 @@
 		5389B6182AC0B14600311E68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -337,6 +456,7 @@
 		5389B6192AC0B14600311E68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -363,6 +483,64 @@
 			};
 			name = Release;
 		};
+		53BFEBF62BD8CF7000D71A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuppyTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PuppyTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = eu.liamnichols.DogTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.liamnichols.DogTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		53BFEBF72BD8CF7000D71A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuppyTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PuppyTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = eu.liamnichols.DogTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.liamnichols.DogTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -380,6 +558,15 @@
 			buildConfigurations = (
 				5389B6182AC0B14600311E68 /* Debug */,
 				5389B6192AC0B14600311E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53BFEBF82BD8CF7000D71A61 /* Build configuration list for PBXNativeTarget "PuppyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53BFEBF62BD8CF7000D71A61 /* Debug */,
+				53BFEBF72BD8CF7000D71A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -406,6 +593,14 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5389BEC52AC6304300311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool-plugin" */;
 			productName = "plugin:XCStringsToolPlugin";
+		};
+		53BFEBFA2BD8D08800D71A61 /* DogKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DogKit;
+		};
+		53BFEBFE2BD8D46400D71A61 /* DogKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DogKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

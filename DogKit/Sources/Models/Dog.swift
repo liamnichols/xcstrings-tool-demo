@@ -1,6 +1,7 @@
 import SwiftData
 
 @available(iOS 17, *)
+@available(watchOS 10, *)
 @Model
 public final class Dog {
     public var name: String
