@@ -1,31 +1,31 @@
 import Foundation
 
-@available(iOS 16, *)
+@available(iOS 15, *)
 public struct Breed {
     public let name: String
 
     public static let goldenRetriever = Breed(
-        name: String(localized: .breeds.goldenRetriever)
+        name: String(breeds: .goldenRetriever)
     )
 
     public static let germanShepherd = Breed(
-        name: String(localized: .breeds.germanShepherd)
+        name: String(breeds: .germanShepherd)
     )
 
     public static let poodle = Breed(
-        name: String(localized: .breeds.poodle)
+        name: String(breeds: .poodle)
     )
 
     public static let dachshund = Breed(
-        name: String(localized: .breeds.dachshund)
+        name: String(breeds: .dachshund)
     )
 
     public static let shihTzu = Breed(
-        name: String(localized: .breeds.shihTzu)
+        name: String(breeds: .shihTzu)
     )
 
     public static let pomeranian = Breed(
-        name: String(localized: .breeds.pomeranian)
+        name: String(breeds: .pomeranian)
     )
 
     public static let all: [Breed] = [
