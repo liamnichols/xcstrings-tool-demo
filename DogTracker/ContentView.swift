@@ -13,14 +13,15 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
+                Text(localizable: .testPhrase)
+                
                 if !dogs.isEmpty {
                     Section {
                         ForEach(dogs) { dog in
                             DogView(dog: dog)
                         }
                     } footer: {
-                        Text(
-                            .localizable.listSummary(
+                        Text(localizable: .listSummary(
                                 dogCount: dogs.count,
                                 totalRating,
                                 dogs.count * 10
@@ -41,7 +42,7 @@ struct ContentView: View {
                     .foregroundStyle(.secondary)
                 }
             }
-            .navigationTitle(Text(.localizable.appName))
+            .navigationTitle(Text(localizable: .appName))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button(

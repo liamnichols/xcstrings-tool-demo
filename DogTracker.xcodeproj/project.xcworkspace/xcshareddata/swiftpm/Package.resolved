@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "runtime",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wickwirew/Runtime",
+      "state" : {
+        "revision" : "ea112a73f7a8772a92b125ceeaaf61f1844466bd",
+        "version" : "2.2.6"
+      }
+    },
+    {
       "identity" : "xcstrings-tool-plugin",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/liamnichols/xcstrings-tool-plugin",

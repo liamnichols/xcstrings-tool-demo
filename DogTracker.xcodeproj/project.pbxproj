@@ -15,6 +15,7 @@
 		5389B6232AC0B59C00311E68 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6222AC0B59C00311E68 /* DogView.swift */; };
 		5389B6252AC0B8C300311E68 /* AddDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6242AC0B8C300311E68 /* AddDogView.swift */; };
 		5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5389B62F2AC0D82700311E68 /* Localizable.xcstrings */; };
+		53F5015C2BF78D9E009E3518 /* Runtime in Frameworks */ = {isa = PBXBuildFile; productRef = 53F5015B2BF78D9E009E3518 /* Runtime */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5389B6212AC0B54D00311E68 /* DogKit in Frameworks */,
+				53F5015C2BF78D9E009E3518 /* Runtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +111,7 @@
 			name = DogTracker;
 			packageProductDependencies = (
 				5389B6202AC0B54D00311E68 /* DogKit */,
+				53F5015B2BF78D9E009E3518 /* Runtime */,
 			);
 			productName = DogTracker;
 			productReference = 5389B6092AC0B14500311E68 /* DogTracker.app */;
@@ -141,6 +144,7 @@
 			mainGroup = 5389B6002AC0B14500311E68;
 			packageReferences = (
 				5389BEC52AC6304300311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool-plugin" */,
+				53F5015A2BF78D9E009E3518 /* XCRemoteSwiftPackageReference "Runtime" */,
 			);
 			productRefGroup = 5389B60A2AC0B14500311E68 /* Products */;
 			projectDirPath = "";
@@ -395,6 +399,14 @@
 				minimumVersion = 0.1.2;
 			};
 		};
+		53F5015A2BF78D9E009E3518 /* XCRemoteSwiftPackageReference "Runtime" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wickwirew/Runtime";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -406,6 +418,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5389BEC52AC6304300311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool-plugin" */;
 			productName = "plugin:XCStringsToolPlugin";
+		};
+		53F5015B2BF78D9E009E3518 /* Runtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53F5015A2BF78D9E009E3518 /* XCRemoteSwiftPackageReference "Runtime" */;
+			productName = Runtime;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

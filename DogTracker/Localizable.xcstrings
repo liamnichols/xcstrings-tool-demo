@@ -266,6 +266,17 @@
           }
         }
       }
+    },
+    "testPhrase" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is **bold** text in the strings file"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
