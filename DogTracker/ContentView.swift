@@ -20,11 +20,11 @@ struct ContentView: View {
                         }
                     } footer: {
                         Text(
-                            .localizable.listSummary(
+                            .localizable(.listSummary(
                                 dogCount: dogs.count,
                                 totalRating,
                                 dogs.count * 10
-                            )
+                            ))
                         )
                     }
                 }
@@ -32,7 +32,7 @@ struct ContentView: View {
             .overlay {
                 if dogs.isEmpty {
                     VStack(spacing: 8) {
-                        Text(.localizable.emptyStateHeading)
+                        Text(.localizable(.emptyStateHeading))
                             .font(.headline)
 
                         Text(.localizable.emptyStateSubheading)
@@ -41,14 +41,10 @@ struct ContentView: View {
                     .foregroundStyle(.secondary)
                 }
             }
-            .navigationTitle(Text(.localizable.appName))
+            .navigationTitle(.localizable(.appName))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button(
-                        "\(.localizable.buttonLabelAddDog)",
-                        systemImage: "plus",
-                        action: addDog
-                    )
+                    Button(.localizable(.buttonLabelAddDog), systemImage: "plus", action: addDog)
                 }
             }
             .sheet(isPresented: $isAddingDog) {

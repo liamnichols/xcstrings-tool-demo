@@ -19,30 +19,30 @@ struct AddDogView: View {
     var body: some View {
         NavigationStack {
             Form {
-                TextField("\(.localizable.addFieldName)", text: $name)
+                TextField(.localizable(.addFieldName), text: $name)
                     .focused($focusedField, equals: .name)
 
-                TextField("\(.localizable.addFieldBreed(String(localized: .breeds.germanShepherd)))", text: $breed)
+                TextField(.localizable(.addFieldBreed(String(localized: .breeds.germanShepherd))), text: $breed)
                     .focused($focusedField, equals: .breed)
 
                 Stepper(value: $rating, in: 1...100, step: 1) {
                     HStack {
-                        Text(.localizable.addFieldRating)
+                        Text(.localizable(.addFieldRating))
                         Spacer()
-                        Text(.localizable.ratingOutOf10(rating))
+                        Text(.localizable(.ratingOutOf10(rating)))
                             .foregroundStyle(.secondary)
                     }
                 }
             }
-            .navigationTitle("\(.localizable.addTitle)")
+            .navigationTitle(.localizable(.addTitle))
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button("\(.localizable.buttonLabelClose)", action: close)
+                    Button(.localizable(.buttonLabelClose), action: close)
 
                 }
 
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("\(.localizable.buttonLabelAddDog)", systemImage: "plus", action: addDog)
+                    Button(.localizable(.buttonLabelAddDog), systemImage: "plus", action: addDog)
                         .disabled(!isValid)
                 }
             }
