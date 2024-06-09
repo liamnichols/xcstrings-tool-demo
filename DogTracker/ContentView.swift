@@ -35,7 +35,7 @@ struct ContentView: View {
                         Text(.localizable(.emptyStateHeading))
                             .font(.headline)
 
-                        Text(.localizable.emptyStateSubheading)
+                        Text(.localizable(.emptyStateSubheading))
                             .font(.subheadline)
                     }
                     .foregroundStyle(.secondary)

@@ -16,7 +16,7 @@ struct DogView: View {
 
             Spacer()
 
-            Text(.localizable.ratingOutOf10(dog.rating))
+            Text(.localizable(.ratingOutOf10(dog.rating)))
         }
         .foregroundStyle(.primary)
     }

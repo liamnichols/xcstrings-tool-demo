@@ -22,7 +22,7 @@ struct AddDogView: View {
                 TextField(.localizable(.addFieldName), text: $name)
                     .focused($focusedField, equals: .name)
 
-                TextField(.localizable(.addFieldBreed(String(localized: .breeds.germanShepherd))), text: $breed)
+                TextField(.localizable(.addFieldBreed(String(breeds: .germanShepherd))), text: $breed)
                     .focused($focusedField, equals: .breed)
 
                 Stepper(value: $rating, in: 1...100, step: 1) {
