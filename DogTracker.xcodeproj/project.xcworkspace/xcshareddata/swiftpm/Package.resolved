@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/liamnichols/xcstrings-tool-plugin",
       "state" : {
-        "revision" : "cfc1b9301210700658b52b9e27230e01646a0e50",
-        "version" : "0.5.0"
+        "revision" : "a281cf2c72e0e4d91c74bf467ef4e871d4f37751",
+        "version" : "0.5.1"
       }
     }
   ],
