@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-       .package(url: "https://github.com/liamnichols/xcstrings-tool-plugin", from: "1.0.0")
+       .package(url: "https://github.com/liamnichols/xcstrings-tool-plugin", from: "1.1.0")
     ],
     targets: [
         .target(
@@ -21,10 +21,7 @@ let package = Package(
             dependencies: [
                 .product(name: "XCStringsToolPlugin", package: "xcstrings-tool-plugin")
             ],
-            path: "Sources",
-            swiftSettings: [
-                .define("XCSTRINGS_TOOL_ACCESS_LEVEL_PUBLIC")
-            ]
+            path: "Sources"
         )
     ]
 )

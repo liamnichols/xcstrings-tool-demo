@@ -16,6 +16,7 @@
 		5389B6252AC0B8C300311E68 /* AddDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6242AC0B8C300311E68 /* AddDogView.swift */; };
 		5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5389B62F2AC0D82700311E68 /* Localizable.xcstrings */; };
 		53E68D202D9D0DCC0022B5E5 /* Legacy.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E68D1F2D9D0DCC0022B5E5 /* Legacy.strings */; };
+		53FD763E2D9F029A00516790 /* xcstrings-tool-config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 53FD763D2D9F029A00516790 /* xcstrings-tool-config.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5389B6422AC21D2400311E68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		53E68D1E2D9D0DCC0022B5E5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Legacy.strings; sourceTree = "<group>"; };
 		53E68D252D9D0E020022B5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Legacy.strings; sourceTree = "<group>"; };
+		53FD763D2D9F029A00516790 /* xcstrings-tool-config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "xcstrings-tool-config.yml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				5389B6222AC0B59C00311E68 /* DogView.swift */,
 				53E68D1F2D9D0DCC0022B5E5 /* Legacy.strings */,
 				5389B62F2AC0D82700311E68 /* Localizable.xcstrings */,
+				53FD763D2D9F029A00516790 /* xcstrings-tool-config.yml */,
 				5389B6102AC0B14600311E68 /* Assets.xcassets */,
 				5389B6122AC0B14600311E68 /* Preview Content */,
 			);
@@ -108,7 +111,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				53F50D612C065AF0009E3518 /* PBXTargetDependency */,
+				53FD76462D9F035100516790 /* PBXTargetDependency */,
 			);
 			name = DogTracker;
 			packageProductDependencies = (
@@ -164,6 +167,7 @@
 				53E68D202D9D0DCC0022B5E5 /* Legacy.strings in Resources */,
 				5389B6112AC0B14600311E68 /* Assets.xcassets in Resources */,
 				5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */,
+				53FD763E2D9F029A00516790 /* xcstrings-tool-config.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +188,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53E68D122D9D0BAF0022B5E5 /* PBXTargetDependency */ = {
+		53FD76462D9F035100516790 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 53E68D112D9D0BAF0022B5E5 /* XCStringsToolPlugin */;
+			productRef = 53FD76452D9F035100516790 /* XCStringsToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,7 +413,7 @@
 			repositoryURL = "https://github.com/liamnichols/xcstrings-tool-plugin";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -419,7 +423,7 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = DogKit;
 		};
-		53F50D602C065AF0009E3518 /* XCStringsToolPlugin */ = {
+		53FD76452D9F035100516790 /* XCStringsToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5389BEC52AC6304300311E68 /* XCRemoteSwiftPackageReference "xcstrings-tool-plugin" */;
 			productName = "plugin:XCStringsToolPlugin";

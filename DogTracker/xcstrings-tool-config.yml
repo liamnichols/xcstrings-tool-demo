@@ -1,0 +1,7 @@
+# Use this setting when using legacy .strings or .stringsdict files.
+# Starting in Xcode 16.3, the DEVELOPMENT_LANGUAGE build setting is not passed automatically.
+developmentLanguage: en
+
+# Use this setting to view verbose output from the generator in the build log.
+# This isn't required in production
+verbose: true
