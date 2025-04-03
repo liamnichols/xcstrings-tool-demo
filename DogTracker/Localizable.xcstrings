@@ -109,24 +109,6 @@
         }
       }
     },
-    "buttonLabelClose" : {
-      "comment" : "Tile of button that dismisses a view",
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Close"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fermer"
-          }
-        }
-      }
-    },
     "emptyStateHeading" : {
       "comment" : "The empty state heading",
       "extractionState" : "manual",

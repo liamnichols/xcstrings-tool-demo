@@ -37,7 +37,7 @@ struct AddDogView: View {
             .navigationTitle(.localizable(.addTitle))
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button(.localizable(.buttonLabelClose), action: close)
+                    Button(.legacy(.buttonLabelClose), action: close)
 
                 }
 

@@ -15,6 +15,7 @@
 		5389B6232AC0B59C00311E68 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6222AC0B59C00311E68 /* DogView.swift */; };
 		5389B6252AC0B8C300311E68 /* AddDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389B6242AC0B8C300311E68 /* AddDogView.swift */; };
 		5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5389B62F2AC0D82700311E68 /* Localizable.xcstrings */; };
+		53E68D202D9D0DCC0022B5E5 /* Legacy.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E68D1F2D9D0DCC0022B5E5 /* Legacy.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		5389B62F2AC0D82700311E68 /* Localizable.xcstrings */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; tabWidth = 2; };
 		5389B63D2AC2128A00311E68 /* DogKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DogKit; sourceTree = "<group>"; };
 		5389B6422AC21D2400311E68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53E68D1E2D9D0DCC0022B5E5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Legacy.strings; sourceTree = "<group>"; };
+		53E68D252D9D0E020022B5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Legacy.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 				5389B60E2AC0B14500311E68 /* ContentView.swift */,
 				5389B6242AC0B8C300311E68 /* AddDogView.swift */,
 				5389B6222AC0B59C00311E68 /* DogView.swift */,
+				53E68D1F2D9D0DCC0022B5E5 /* Legacy.strings */,
 				5389B62F2AC0D82700311E68 /* Localizable.xcstrings */,
 				5389B6102AC0B14600311E68 /* Assets.xcassets */,
 				5389B6122AC0B14600311E68 /* Preview Content */,
@@ -157,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5389B6142AC0B14600311E68 /* Preview Assets.xcassets in Resources */,
+				53E68D202D9D0DCC0022B5E5 /* Legacy.strings in Resources */,
 				5389B6112AC0B14600311E68 /* Assets.xcassets in Resources */,
 				5389B6302AC0D82700311E68 /* Localizable.xcstrings in Resources */,
 			);
@@ -179,11 +184,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53F50D612C065AF0009E3518 /* PBXTargetDependency */ = {
+		53E68D122D9D0BAF0022B5E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 53F50D602C065AF0009E3518 /* XCStringsToolPlugin */;
+			productRef = 53E68D112D9D0BAF0022B5E5 /* XCStringsToolPlugin */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53E68D1F2D9D0DCC0022B5E5 /* Legacy.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E68D1E2D9D0DCC0022B5E5 /* fr */,
+				53E68D252D9D0E020022B5E5 /* en */,
+			);
+			name = Legacy.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5389B6152AC0B14600311E68 /* Debug */ = {
